@@ -5,7 +5,7 @@
 countPrime(){
 echo "Enter a  number"
 read input
-for (( i=2+1; i <= $input-1; i++ ))
+for (( i=2; i <= $input-1; i++ ))
 	do
 	p=0
 	for (( j=2; j <= $i-1; j++ ))
